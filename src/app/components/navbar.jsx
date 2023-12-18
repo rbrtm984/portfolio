@@ -67,7 +67,7 @@ const Navbar = () => {
             </ul>
             <div className='pt-40'>
               <p className='uppercase tracking-widest text-[#8a5665]'>
-                Let's Connect
+                {`Let's Connect`}
               </p>
               <div>
                 <div className='rounded-full'>
