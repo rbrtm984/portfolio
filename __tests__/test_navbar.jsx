@@ -12,31 +12,31 @@ describe("Navbar", () => {
 
   test("renders home link", () => {
     render(<Navbar />);
-    const homeLink = screen.getByText("Home");
-    expect(homeLink).toBeInTheDocument();
+    const homeLink = screen.getAllByText("Home");
+    expect(homeLink.length).toEqual(2);
   });
 
   test("renders about link", () => {
     render(<Navbar />);
-    const aboutLink = screen.getByText("About");
-    expect(aboutLink).toBeInTheDocument();
+    const aboutLink = screen.getAllByText("About");
+    expect(aboutLink.length).toEqual(2);
   });
 
   test("renders skills link", () => {
     render(<Navbar />);
-    const skillsLink = screen.getByText("Skills");
-    expect(skillsLink).toBeInTheDocument();
+    const skillsLink = screen.getAllByText("Skills");
+    expect(skillsLink.length).toEqual(2);
   });
 
   test("renders projects link", () => {
     render(<Navbar />);
-    const projectsLink = screen.getByText("Projects");
-    expect(projectsLink).toBeInTheDocument();
+    const projectsLink = screen.getAllByText("Projects");
+    expect(projectsLink.length).toEqual(2)
   });
 
   test("renders contact link", () => {
     render(<Navbar />);
-    const contactLink = screen.getByText("Contact");
-    expect(contactLink).toBeInTheDocument();
+    const contactLink = screen.getAllByText("Contact");
+    expect(contactLink.length).toEqual(2);
   });
 });
