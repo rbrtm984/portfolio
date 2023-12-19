@@ -17,6 +17,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='html-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -32,6 +33,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='css-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -47,6 +49,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='javascript-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -62,6 +65,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='react-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -77,6 +81,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='tailwind-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -92,6 +97,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='github-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -107,6 +113,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='aws-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -122,6 +129,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='mongo-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -137,6 +145,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='nextjs-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
@@ -152,6 +161,7 @@ const Skills = () => {
                                 width='64' 
                                 height='64'
                                 alt='/'
+                                data-testid='node-image'
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
