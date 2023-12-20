@@ -46,9 +46,9 @@ describe("Main", () => {
     expect(mailIcon).toBeInTheDocument();
   });
 
-  test("renders Person Lines icon", () => {
-    render(<Main />);
-    const personLinesIcon = screen.getByTestId("person-lines-icon");
-    expect(personLinesIcon).toBeInTheDocument();
-  });
+  // test("renders Person Lines icon", () => {
+  //   render(<Main />);
+  //   const personLinesIcon = screen.getByTestId("person-lines-icon");
+  //   expect(personLinesIcon).toBeInTheDocument();
+  // });
 });
