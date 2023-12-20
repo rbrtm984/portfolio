@@ -39,7 +39,7 @@ function Projects() {
           </div>
 
           <div className='relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]'>
-            <Image src={''} alt='/'/> {/* Add image for Kart and Kode */}
+            <Image src='' alt='/'/> {/* Add image for Kart and Kode */}
           </div>
           <div>
           Kart and Kode 
