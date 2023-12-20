@@ -12,7 +12,7 @@ describe("Projects", () => {
 
   test("renders project titles", () => {
     render(<Projects />);
-    const projectTitles = screen.getAllByTestId("project-title");
+    const projectTitles = screen.getAllByTestId("project-item");
     expect(projectTitles).toHaveLength(4);
     expect(projectTitles[0]).toHaveTextContent("Ship Log");
     expect(projectTitles[1]).toHaveTextContent("Easy Court");
@@ -24,10 +24,10 @@ describe("Projects", () => {
     render(<Projects />);
     const projectImages = screen.getAllByTestId("project-image");
     expect(projectImages).toHaveLength(4);
-    expect(projectImages[0]).toHaveAttribute("src", "/shiplogImg.png");
-    expect(projectImages[1]).toHaveAttribute("src", "/easyCourtImg.png");
-    expect(projectImages[2]).toHaveAttribute("src", "/socialHourImg.png");
-    expect(projectImages[3]).toHaveAttribute("src", "/kaleidoscopeImg.png");
+    expect(projectImages[0]).toHaveAttribute("src", "/_next/image?url=%2FshiplogImg.png&w=1920&q=75");
+    expect(projectImages[1]).toHaveAttribute("src", "/_next/image?url=%2FeasyCourtImg.png&w=1920&q=75");
+    expect(projectImages[2]).toHaveAttribute("src", "/_next/image?url=%2FsocialHourImg.png&w=1920&q=75");
+    expect(projectImages[3]).toHaveAttribute("src", "/_next/image?url=%2FkaleidoscopeImg.png&w=1920&q=75");
   });
 
   test("renders project URLs", () => {
