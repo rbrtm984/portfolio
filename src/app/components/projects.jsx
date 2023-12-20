@@ -1,6 +1,11 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-// import propertyImg from '.'
+import ProjectItem from "./projectitem";
+// import shipLogImg from "/shiplog.png";
+// import easyCourtImg from "../../public/images/easycourt.png";
+// import kaleidoscopeImg from "../../public/images/kaleidoscope.png";
+// import socialHourImg from "../../public/images/socialhour.png";
 
 function Projects() {
   return (
@@ -11,30 +16,26 @@ function Projects() {
         </p>
         <h2 className="py-4">{`What I've Built`}</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]">
-            <Image src={""} alt="/" /> {/* Add image for Kaleidoscope */}
-          </div>
-          <div>Kaleidoscope</div>
-
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]">
-            <Image src={""} alt="/" /> {/* Add image for Ship Log */}
-          </div>
-          <div>Ship Log</div>
-
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]">
-            <Image src={""} alt="/" /> {/* Add image for Easy Court */}
-          </div>
-          <div>Easy Court</div>
-
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]">
-            <Image src={""} alt="/" /> {/* Add image for Social Hour */}
-          </div>
-          <div>Social Hour</div>
-
-          <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#4CE0D2]">
-            <Image src="" alt="/" /> {/* Add image for Kart and Kode */}
-          </div>
-          <div>Kart and Kode</div>
+          <ProjectItem
+            title="Ship Log"
+            backgroundImg="/shiplogImg.png"
+            projectUrl="/shiplog"
+          />
+          <ProjectItem
+            title="Easy Court"
+            backgroundImg="/easyCourtImg.png"
+            projectUrl="/easycourt"
+          />
+          <ProjectItem
+            title="Social Hour"
+            backgroundImg="/socialHourImg.png"
+            projectUrl="/socialhour"
+          />
+          <ProjectItem
+            title="Kaleidoscope"
+            backgroundImg="/kaleidoscopeImg.png"
+            projectUrl="/kaleidoscope"
+          />
         </div>
       </div>
     </div>
