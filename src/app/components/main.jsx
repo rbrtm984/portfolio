@@ -21,30 +21,36 @@ export const Main = () => {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`}
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              data-testid="linkedin-icon"
-            >
-              <FaLinkedin />
-            </div>
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              data-testid="github-icon"
-            >
-              <FaGithub />
-            </div>
-            <div
-              className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
-              data-testid="mail-icon"
-            >
-              <AiOutlineMail />
-            </div>
-            <div
+            <a href="https://www.linkedin.com/in/robertcmayo/">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                data-testid="linkedin-icon"
+              >
+                <FaLinkedin />
+              </div>
+            </a>
+            <a href="https://github.com/rbrtm984">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                data-testid="github-icon"
+              >
+                <FaGithub />
+              </div>
+            </a>
+            <a href="mailto:rbrtm984@gmail.com">
+              <div
+                className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
+                data-testid="mail-icon"
+              >
+                <AiOutlineMail />
+              </div>
+            </a>
+            {/* <div
               className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300"
               data-testid="person-lines-icon"
             >
               <BsFillPersonLinesFill />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
