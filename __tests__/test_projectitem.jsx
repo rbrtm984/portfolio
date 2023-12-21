@@ -40,7 +40,6 @@ describe("ProjectItem", () => {
         projectUrl={mockProjectUrl}
       />
     );
-    console.log(mockProjectUrl);
     const linkElement = screen.getByRole("link");
     expect(linkElement).toHaveAttribute("href", mockProjectUrl);
   });

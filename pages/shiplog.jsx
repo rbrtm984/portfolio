@@ -2,7 +2,11 @@ import React from 'react'
 
 const shiplog = () => {
   return (
-    <div>shiplog</div>
+    <div className='w-full'>
+      <div className='w-screen h-[30vh] lg:w-[40vh] relative'>
+
+      </div>
+    </div>
   )
 }
 
