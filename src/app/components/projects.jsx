@@ -14,27 +14,25 @@ function Projects() {
       title: "Ship Log",
       backgroundImg: "/shiplogImg.png",
       projectUrl: "/shiplog",
-      testid: "shiplog"
+      testid: "shiplog",
     },
     {
       title: "Easy Court",
       backgroundImg: "/easyCourtImg.png",
       projectUrl: "/easycourt",
-      testid: "easycourt"
-
+      testid: "easycourt",
     },
     {
       title: "Social Hour",
       backgroundImg: "/socialHourImg.png",
       projectUrl: "/socialhour",
-      testid: "socialhour"
-
+      testid: "socialhour",
     },
     {
       title: "Kaleidoscope",
       backgroundImg: "/kaleidoscopeImg.png",
       projectUrl: "/kaleidoscope",
-      testid: "kaleidoscope"
+      testid: "kaleidoscope",
     },
   ];
 

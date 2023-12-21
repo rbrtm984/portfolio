@@ -29,7 +29,10 @@ describe("ProjectItem", () => {
       />
     );
     const imageElement = screen.getByAltText("");
-    expect(imageElement).toHaveAttribute("src", "/_next/image?url=%2Fsample-image.jpg&w=1920&q=75");
+    expect(imageElement).toHaveAttribute(
+      "src",
+      "/_next/image?url=%2Fsample-image.jpg&w=1920&q=75"
+    );
   });
 
   test("renders project item component with correct project URL", () => {

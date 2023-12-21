@@ -2,9 +2,12 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const projectitem = ({title, backgroundImg, projectUrl}) => {
+const projectitem = ({ title, backgroundImg, projectUrl }) => {
   return (
-    <div className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#22AAA1]" data-testid="project-item">
+    <div
+      className="relative flex items-center justify-center h-auto w-full shadow-xl shadow-gray-400 rounded-xl p-4 group hover:bg-gradient-to-r from-[#136F63] to-[#22AAA1]"
+      data-testid="project-item"
+    >
       <Image
         className="rounded-xl group-hover:opacity-10"
         src={backgroundImg}

@@ -24,10 +24,22 @@ describe("Projects", () => {
     render(<Projects />);
     const projectImages = screen.getAllByTestId("project-image");
     expect(projectImages).toHaveLength(4);
-    expect(projectImages[0]).toHaveAttribute("src", "/_next/image?url=%2FshiplogImg.png&w=1920&q=75");
-    expect(projectImages[1]).toHaveAttribute("src", "/_next/image?url=%2FeasyCourtImg.png&w=1920&q=75");
-    expect(projectImages[2]).toHaveAttribute("src", "/_next/image?url=%2FsocialHourImg.png&w=1920&q=75");
-    expect(projectImages[3]).toHaveAttribute("src", "/_next/image?url=%2FkaleidoscopeImg.png&w=1920&q=75");
+    expect(projectImages[0]).toHaveAttribute(
+      "src",
+      "/_next/image?url=%2FshiplogImg.png&w=1920&q=75"
+    );
+    expect(projectImages[1]).toHaveAttribute(
+      "src",
+      "/_next/image?url=%2FeasyCourtImg.png&w=1920&q=75"
+    );
+    expect(projectImages[2]).toHaveAttribute(
+      "src",
+      "/_next/image?url=%2FsocialHourImg.png&w=1920&q=75"
+    );
+    expect(projectImages[3]).toHaveAttribute(
+      "src",
+      "/_next/image?url=%2FkaleidoscopeImg.png&w=1920&q=75"
+    );
   });
 
   test("renders project URLs", () => {

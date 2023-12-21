@@ -114,7 +114,10 @@ const Contact = () => {
                     rows="10"
                   ></textarea>
                 </div>
-                <button className="w-full p-4 text-gray-100 mt-4" data-testid="back-to-top-button">
+                <button
+                  className="w-full p-4 text-gray-100 mt-4"
+                  data-testid="back-to-top-button"
+                >
                   Send Message
                 </button>
               </form>

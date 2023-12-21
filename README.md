@@ -22,32 +22,41 @@ Welcome to my personal portfolio, built with [Next.js](https://nextjs.org/). Thi
 To run this project locally, follow these steps:
 
 1. Clone the repository:
+
 ```
    git clone https://github.com/rbrtm984/rob-mayo-portfolio.git
 ```
+
 2. Navigate to the project directory:
+
 ```
 cd rob-mayo-portfolio
 ```
+
 3. Install dependencies:
+
 ```
 npm install
 ```
+
 4. Start the development server:
+
 ```
 npm run dev
 ```
-5. Open http://localhost:3000 with your browser to see the result.
 
+5. Open http://localhost:3000 with your browser to see the result.
 
 ## Testing
 
-Excessive? Maybe. But I have indeed implemented Jest to provide testing for this project. 
+Excessive? Maybe. But I have indeed implemented Jest to provide testing for this project.
 
 Run the following command to execute tests:
+
 ```
 npm run test
 ```
+
 ## Deployment
 
 Deployed using Vercel. Check it out here: https://rob-mayo-portfolio.vercel.app/

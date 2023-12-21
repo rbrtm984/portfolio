@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import "@testing-library/jest-dom"
+import "@testing-library/jest-dom";
 import Navbar from "../src/app/components/navbar";
 
 describe("Navbar", () => {
@@ -31,7 +31,7 @@ describe("Navbar", () => {
   test("renders projects link", () => {
     render(<Navbar />);
     const projectsLink = screen.getAllByText("Projects");
-    expect(projectsLink.length).toEqual(2)
+    expect(projectsLink.length).toEqual(2);
   });
 
   test("renders contact link", () => {

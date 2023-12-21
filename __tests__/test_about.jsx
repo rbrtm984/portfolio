@@ -18,7 +18,9 @@ describe("About", () => {
 
   test("renders project link", () => {
     render(<About />);
-    const projectLink = screen.getByText("Check out some of my latest projects.");
+    const projectLink = screen.getByText(
+      "Check out some of my latest projects."
+    );
     expect(projectLink).toBeInTheDocument();
   });
 

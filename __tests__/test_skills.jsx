@@ -6,7 +6,7 @@ import Skills from "../src/app/components/skills";
 describe("Skills", () => {
   test("renders skill images", () => {
     render(<Skills />);
-    
+
     const htmlImage = screen.getByTestId("html-image");
     expect(htmlImage).toBeInTheDocument();
 
