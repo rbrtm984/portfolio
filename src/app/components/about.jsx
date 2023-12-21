@@ -10,22 +10,16 @@ const About = () => {
           </p>
           <h2 className="py-4  px-4">Who I Am</h2>
           <p className="py-2 px-4 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            {`I remember playing Team Fortress 2 for hours as a kid. My dad told me one day I should
+            learn to make my own games. Since then, building has been my passion and obsession.
+            I love the challenge of learning new things and the satisfaction of solving problems. Working with people 
+            and helping them achieve their goals in the classroom was one manifestation of that passion. Now, I build tools 
+            that help people in more ways than I ever could have imagined!`}
           </p>
           <p className="py-2  px-4 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            {`These days, I'm building open source products with React and Node.js, learning Ruby, and expanding my network in NYC.
+            I'm currently looking for a full-time position as a developer. If you're interested in working together,
+            please reach out using my contact form (link below). I'd love to hear from you! Thanks for visiting my site.`}
           </p>
           <p className="py-2  px-4 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects.

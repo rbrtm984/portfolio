@@ -12,8 +12,8 @@ describe("About", () => {
 
   test("renders description paragraphs", () => {
     render(<About />);
-    const descriptionParagraphs = screen.getAllByText(/Lorem ipsum/);
-    expect(descriptionParagraphs.length).toEqual(2);
+    const descriptionParagraphs = screen.getAllByText(/I remember/);
+    expect(descriptionParagraphs.length).toEqual(1);
   });
 
   test("renders project link", () => {
