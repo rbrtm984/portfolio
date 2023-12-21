@@ -1,10 +1,11 @@
 import Image from 'next/image'
-import Navbar from './components/navbar';
-import { Main } from './components/main';
-import About from './components/about';
-import Skills from './components/skills';
-import Projects from './components/projects';
-import Contact from './components/contact';
+import path from 'path';
+import Navbar from './components/navbar.jsx';
+import Main from './components/main.jsx';
+import About from './components/about.jsx';
+import Skills from './components/skills.jsx';
+import Projects from './components/projects.jsx';
+import Contact from './components/contact.jsx';
 
 export default function Home() {
   return (
