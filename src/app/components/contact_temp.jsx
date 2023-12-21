@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
-const Contact = () => {
+const contact = () => {
   return (
     <div id="contact" className="w-full lg: h-screen" data-testid="contact">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">

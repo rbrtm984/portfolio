@@ -5,7 +5,7 @@ import Main from './components/main.jsx';
 import About from './components/about.jsx';
 import Skills from './components/skills.jsx';
 import Projects from './components/projects.jsx';
-import Contact from './components/contact.jsx';
+import Contact from './components/contact_temp.jsx';
 
 export default function Home() {
   return (
