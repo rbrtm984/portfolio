@@ -2,7 +2,7 @@
 
 import React from 'react';
 import "./globals.css";
-import Navbar from './components/Navbar'; // Adjust the import path as necessary
+import Navbar from './components/navbar'; // Adjust the import path as necessary
 
 const RootLayout = ({ children }) => {
   return (
