@@ -4,17 +4,16 @@ import path from "path";
 import Main from "./components/main.jsx";
 import About from "./components/about.jsx";
 import Skills from "./components/skills.jsx";
-// import Projects from "./components/projects.jsx";
+import Projects from "./components/projects.jsx";
 import Contact from "./components/contact.jsx";
 
 export default function Home() {
   return (
     <div className="h-screen">
-      {/* <Navbar /> */}
       <Main />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
     </div>
   );
