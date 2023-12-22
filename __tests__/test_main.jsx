@@ -6,7 +6,7 @@ import Main from "../src/app/components/main";
 describe("Main", () => {
   test("renders main component", () => {
     render(<Main />);
-    const mainElement = screen.getByText("Let's do it");
+    const mainElement = screen.getByText("Building for people");
     expect(mainElement).toBeInTheDocument();
   });
 
