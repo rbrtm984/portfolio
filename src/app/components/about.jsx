@@ -11,14 +11,14 @@ const About = () => {
           </p>
           <h2 className="py-4  px-4">Who I Am</h2>
           <p className="py-2 px-4 text-gray-600">
-            {`I've been building and playing with software since middle school. These past few years,
-            web development has been my passion and obsession. I love the challenge of learning new things 
-            and the satisfaction of solving problems. But more than that, I love building for and helping people. 
-            Let's build something that makes life better and easier for someone.`}
+            {`I've been building and playing with software since middle school. My dad encouraged me
+            to build things for myself instead of using other people's products. I've been hooked on building ever since.
+            But as I've lived, I've realized that building things for myself isn't enough. I love people, 
+            and I want to use my passion to build things for and with others.`}
           </p>
           <p className="py-2  px-4 text-gray-600">
-            {`Recently, I've been building open source products with React, Node.js and OpenTelemetry, learning Ruby, and expanding my network in NYC.
-            I'm currently looking for a full-time position as a developer. If you're interested in working together,
+            {`Recently, I've been curious about OpenTelemetry, working with Ruby on Rails, and building this portfolio.
+            I'm always looking to connect and chat about technology (or horror movies). If you're interested in that or collaborating professionally,
             please reach out using my contact form (link below). I'd love to hear from you! Thanks for visiting my site.`}
           </p>
           <a href="https://github.com/rbrtm984">
