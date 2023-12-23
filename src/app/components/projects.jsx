@@ -13,25 +13,25 @@ function Projects() {
     {
       title: "Ship Log",
       backgroundImg: "/shiplogImg.png",
-      projectUrl: "/shiplog",
+      projectUrl: "https://github.com/rbrtm984/ship-log",
       testid: "shiplog",
     },
     {
       title: "Easy Court",
       backgroundImg: "/easyCourtImg.png",
-      projectUrl: "/easycourt",
+      projectUrl: "https://github.com/Easy-Court/Easy_Court",
       testid: "easycourt",
     },
     {
       title: "Social Hour",
       backgroundImg: "/socialHourImg.png",
-      projectUrl: "/socialhour",
+      projectUrl: "https://github.com/Panda-Shark5/The-Social-Hour",
       testid: "socialhour",
     },
     {
       title: "Kaleidoscope",
       backgroundImg: "/kaleidoscopeImg.png",
-      projectUrl: "/kaleidoscope",
+      projectUrl: "https://github.com/oslabs-beta/Kaleidoscope",
       testid: "kaleidoscope",
     },
   ];

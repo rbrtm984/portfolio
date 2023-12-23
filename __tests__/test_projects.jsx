@@ -46,9 +46,9 @@ describe("Projects", () => {
     render(<Projects />);
     const projectUrls = screen.getAllByTestId("project-url");
     expect(projectUrls).toHaveLength(4);
-    expect(projectUrls[0]).toHaveAttribute("href", "/shiplog");
-    expect(projectUrls[1]).toHaveAttribute("href", "/easycourt");
-    expect(projectUrls[2]).toHaveAttribute("href", "/socialhour");
-    expect(projectUrls[3]).toHaveAttribute("href", "/kaleidoscope");
+    expect(projectUrls[0]).toHaveAttribute("href", "https://github.com/rbrtm984/ship-log");
+    expect(projectUrls[1]).toHaveAttribute("href", "https://github.com/Easy-Court/Easy_Court");
+    expect(projectUrls[2]).toHaveAttribute("href", "https://github.com/Panda-Shark5/The-Social-Hour");
+    expect(projectUrls[3]).toHaveAttribute("href", "https://github.com/oslabs-beta/Kaleidoscope");
   });
 });
