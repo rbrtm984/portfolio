@@ -12,7 +12,7 @@ function Projects() {
   const projects = [
     {
       title: "Ship Log",
-      backgroundImg: "/shipLogImg.png",
+      backgroundImg: "/shiplogImg.png",
       projectUrl: "https://github.com/rbrtm984/ship-log",
       testid: "shiplog",
     },
