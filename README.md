@@ -1,6 +1,8 @@
 # My Portfolio 🦉
 Welcome to my personal portfolio, built with [Next.js](https://nextjs.org/). This portfolio showcases my skills and projects as a Full Stack Developer.
 
+Check out the current deployment here: https://rob-mayo-portfolio.vercel.app/
+
 ## Features
 
 - **TailwindCSS**: Mobile-first, responsive UI.
@@ -58,4 +60,4 @@ npm run test
 
 ## Deployment
 
-Deployed using Vercel. Check it out here: https://rob-mayo-portfolio.vercel.app/
+Deployed using Vercel. 
