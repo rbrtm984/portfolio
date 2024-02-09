@@ -1,4 +1,4 @@
-# Rob Mayo's Portfolio
+# Portfolio
 
 Welcome to my personal portfolio, built with [Next.js](https://nextjs.org/). This portfolio showcases my skills and projects as a Full Stack Developer.
 
